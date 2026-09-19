@@ -1,0 +1,7 @@
+name = "bt-warriors-roles"
+main = "src/index.js"
+compatibility_date = "2026-09-19"
+
+[vars]
+GUILD_ID = "875130075996094525"
+ROLE_ID = "883161380029595689"

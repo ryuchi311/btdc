@@ -1,0 +1,13 @@
+{
+  "name": "bt-warriors-roles",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "post-button": "node scripts/post-button.js"
+  },
+  "dependencies": {
+    "discord-interactions": "^3.0.0"
+  }
+}
