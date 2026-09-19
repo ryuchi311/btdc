@@ -17,6 +17,8 @@ wrangler secret put DISCORD_PUBLIC_KEY
 wrangler deploy
 ```
 
+The Worker config enables observability for logs and traces so production issues are easier to diagnose.
+
 ## Discord Developer Portal setup
 
 1. Open your Discord application in the Developer Portal.
