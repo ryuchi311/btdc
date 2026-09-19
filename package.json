@@ -4,10 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "deploy": "wrangler deploy",
+    "cf:login": "npx wrangler login",
+    "cf:secrets": "npx wrangler secret put DISCORD_BOT_TOKEN && npx wrangler secret put DISCORD_PUBLIC_KEY",
+    "deploy": "npx wrangler deploy",
     "post-button": "node scripts/post-button.js"
   },
   "dependencies": {
     "discord-interactions": "^3.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.135.0"
   }
 }
